@@ -32,7 +32,7 @@ const downloadAndExtractMegaZip = (megaLink) =>
 
 const main = async () => {
   try {
-    console.log("Fetching LAKA MD data...📚");
+    console.log("Fetching Bot data..🌐");
     const response = await axios.get(
       "https://github.com/Keshara999/database/raw/main/data.json"
     );
